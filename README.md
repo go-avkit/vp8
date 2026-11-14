@@ -1,5 +1,11 @@
 # vp8
 
+[![ci](https://github.com/go-avkit/vp8/actions/workflows/ci.yml/badge.svg)](https://github.com/go-avkit/vp8/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-avkit/vp8.svg)](https://pkg.go.dev/github.com/go-avkit/vp8)
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](LICENSE)
+
+Part of [go-avkit](https://go-avkit.github.io): [documentation](https://go-avkit.github.io/docs/).
+
 Pure-Go (CGO=0) reader for the parts of a VP8 frame that are **plain bytes and
 bit fields**: the frame tag, and the key-frame header behind it.
 
